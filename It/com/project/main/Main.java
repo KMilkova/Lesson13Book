@@ -15,13 +15,13 @@ public class Main_book {
 		System.out.println();
 
 		books.findABooksByAuthor("Kev");
-		books.print();
+		System.out.println();
 
 		books.findABooksByPublishingHouse("Candy");
-		books.print();
+		System.out.println();
 
 		books.findABooksIssuedAfterAYear(2008);
-		books.print();
+		System.out.println();
 
 	}
 
